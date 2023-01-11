@@ -1,0 +1,13 @@
+.intro__icon {
+  display: block;
+  max-width: 200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.intro__icon:not(:first-of-type) {
+  display: block;
+  max-width: 100px;
+  margin: 0 auto;
+  padding: 0;
+}

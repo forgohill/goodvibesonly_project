@@ -1,0 +1,10 @@
+.intro__subtilte {
+  max-width: 400px;
+
+  margin: 15px auto 10px;
+  padding: 0;
+
+  font-family: 'Montserrat', sans-serif;
+
+  text-align: center;
+}
