@@ -1,0 +1,13 @@
+.pxp {
+
+  position: absolute;
+  width: 1440px;
+  height: 5620px;
+  margin: 0 auto;
+  padding: 0;
+  z-index: 0;
+  background-image: url(../../images/PxP/Desktop1440.jpg);
+  background-position: top;
+
+  opacity: 0.5;
+}

@@ -1,1 +1,3 @@
-/* .main {} */
+.main {
+  z-index: 1;
+}
