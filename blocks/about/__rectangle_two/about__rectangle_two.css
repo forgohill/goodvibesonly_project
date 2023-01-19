@@ -1,0 +1,10 @@
+.about__rectangle_two {
+  position: absolute;
+
+  width: 440px;
+  height: 305px;
+  left: 92px;
+  bottom: 173px;
+
+  background: #282A30;
+}
