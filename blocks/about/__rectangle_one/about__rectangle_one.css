@@ -1,0 +1,10 @@
+.about__rectangle_one {
+  position: absolute;
+
+  width: 205px;
+  height: 180px;
+  left: -48px;
+  bottom: 111px;
+
+  background: #282A30;
+}

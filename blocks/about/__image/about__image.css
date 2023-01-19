@@ -1,0 +1,12 @@
+.about__image {
+  position: absolute;
+
+  max-width: 483px;
+
+  top: 250px;
+  left: 0px;
+
+  object-fit: cover;
+
+  z-index: 4;
+}

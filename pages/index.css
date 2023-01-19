@@ -61,3 +61,16 @@
 
 @import url(../blocks/btn-play/btn-play.css);
 @import url(../blocks/btn-play/__image/btn-play__image.css);
+
+/* ======================== ABOUT ===================================== */
+
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__wrapper/about__wrapper.css);
+@import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__snap-accent/about__snap-accent.css);
+@import url(../blocks/about/__subtitle/about__subtitle.css);
+@import url(../blocks/about/__btn-read/about__btn-read.css);
+@import url(../blocks/about/__image/about__image.css);
+@import url(../blocks/about/__rectangle_two/about__rectangle_two.css);
+@import url(../blocks/about/__rectangle_one/about__rectangle_one.css);
+@import url(../blocks/about/__pattern/about__pattern.css);
