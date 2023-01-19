@@ -1,0 +1,10 @@
+.advantage {
+  max-width: 100%;
+
+  position: relative;
+
+  margin: 0 auto;
+  padding: 207px 0 192px;
+
+  background-color: rgba(255, 196, 0, 0.2);
+}

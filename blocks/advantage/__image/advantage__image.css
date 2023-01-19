@@ -1,0 +1,9 @@
+.advantage__image {
+  display: block;
+  max-width: 1009px;
+
+  margin: 131px auto 0;
+  padding: 0;
+  /* opacity: 0.5; */
+  box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.5);
+}
