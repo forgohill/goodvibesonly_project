@@ -3,6 +3,8 @@
   position: absolute;
   width: 1440px;
   height: 5620px;
+  left: calc((100% - 1440px) /2);
+
   margin: 0 auto;
   padding: 0;
   z-index: 0;

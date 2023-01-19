@@ -1,0 +1,10 @@
+.presentation {
+  max-width: 100%;
+
+  position: relative;
+
+  margin: 0 auto;
+  padding: 153px 0 231px;
+
+  background-color: rgba(0, 0, 255, 0.2);
+}

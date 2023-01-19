@@ -1,0 +1,10 @@
+.presentation__image {
+  max-width: 465px;
+
+  position: absolute;
+
+  top: 41px;
+  right: 19px;
+
+  z-index: 3;
+}

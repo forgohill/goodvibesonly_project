@@ -1,0 +1,11 @@
+.presentation__rectangle {
+  position: absolute;
+  width: 35px;
+  height: 264px;
+  left: -110px;
+  top: 65px;
+
+  background: #F7515C;
+
+  z-index: 2;
+}

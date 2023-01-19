@@ -1,0 +1,7 @@
+.presentation__pattern {
+  position: absolute;
+  right: -59px;
+  top: 60px;
+
+  z-index: 2;
+}

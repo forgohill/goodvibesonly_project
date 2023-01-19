@@ -1,0 +1,11 @@
+.presentation__background {
+  position: absolute;
+  width: 896px;
+  height: 698px;
+  left: -125px;
+  top: 50px;
+
+  opacity: 0.05;
+
+  z-index: 2;
+}

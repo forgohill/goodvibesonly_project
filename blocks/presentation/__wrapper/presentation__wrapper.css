@@ -1,0 +1,4 @@
+.presentation__wrapper {
+  position: relative;
+  z-index: 10;
+}

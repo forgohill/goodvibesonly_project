@@ -1,0 +1,15 @@
+.presentation__title {
+  max-width: 483px;
+
+  margin: 52px 0 0;
+  padding: 0;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 1.5;
+
+  color: #282A30;
+
+  z-index: 10;
+}

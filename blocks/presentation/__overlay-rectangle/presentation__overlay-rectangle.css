@@ -1,0 +1,11 @@
+.presentation__overlay-rectangle {
+  width: 451px;
+  height: 702px;
+  position: absolute;
+  top: 106px;
+  right: -17px;
+
+  background: rgba(229, 229, 229, 0.1);
+
+  z-index: 4;
+}

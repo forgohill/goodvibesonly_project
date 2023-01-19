@@ -1,0 +1,17 @@
+.header__logo-link {
+  max-width: 375px;
+
+  margin: 0;
+  padding: 0;
+
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  text-decoration: none;
+
+  color: #282A30;
+}
