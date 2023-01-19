@@ -74,3 +74,23 @@
 @import url(../blocks/about/__rectangle_two/about__rectangle_two.css);
 @import url(../blocks/about/__rectangle_one/about__rectangle_one.css);
 @import url(../blocks/about/__pattern/about__pattern.css);
+
+/* ======================== ADVANTEG ===================================== */
+
+@import url(../blocks/advantage/advantage.css);
+@import url(../blocks/advantage/__title/advantage__title.css);
+@import url(../blocks/advantage/__span-accent/advantage__span-accent.css);
+@import url(../blocks/advantage/__image/advantage__image.css);
+@import url(../blocks/advantage/__card/advantage__card.css);
+@import url(../blocks/advantage/__card/_one/advantage__card_one.css);
+@import url(../blocks/advantage/__card/_two/advantage__card_two.css);
+@import url(../blocks/advantage/__card/_tree/advantage__card_tree.css);
+
+@import url(../blocks/advantage/__pattern/advantage__pattern.css);
+
+/* ======================== CARD ===================================== */
+
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__subtitle/card__subtitle.css);
+@import url(../blocks/card/__number/card__number.css);

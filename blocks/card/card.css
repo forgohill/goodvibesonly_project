@@ -1,0 +1,17 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  margin: 0;
+  padding: 44px 47px 44px 44px;
+
+  max-width: 405px;
+  min-width: 400px;
+  min-height: 100px;
+
+  background-color: #FFF;
+
+  box-shadow: 20px 4px 100px rgba(0, 0, 0, 0.1);
+}
