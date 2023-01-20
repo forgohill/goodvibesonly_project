@@ -1,0 +1,16 @@
+.slider-card__title {
+  display: block;
+
+  margin: 44px 0 0;
+  padding: 0;
+
+  font-family: 'Montserrat', sans-serif;
+
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.23;
+
+  text-align: center;
+
+  color: #282A30;
+}

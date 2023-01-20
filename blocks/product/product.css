@@ -1,0 +1,10 @@
+.product {
+  max-width: 100%;
+
+  position: relative;
+
+  margin: 0 auto;
+  padding: 165px 0 192px;
+
+  background-color: rgba(255, 0, 195, 0.2);
+}

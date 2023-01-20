@@ -94,3 +94,23 @@
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__subtitle/card__subtitle.css);
 @import url(../blocks/card/__number/card__number.css);
+
+/* ======================== PRODUCT ===================================== */
+
+@import url(../blocks/product/product.css);
+@import url(../blocks/product/__title/product__title.css);
+@import url(../blocks/product/__span-accent/product__span-accent.css);
+@import url(../blocks/product/__cards/product__cards.css);
+@import url(../blocks/product/__card/product__card.css);
+
+/* ======================== SLIDER-CARD ===================================== */
+
+@import url(../blocks/slider-card/slider-card.css);
+@import url(../blocks/slider-card/__link/slider-card__link.css);
+@import url(../blocks/slider-card/__image/slider-card__image.css);
+@import url(../blocks/slider-card/__title/slider-card__title.css);
+@import url(../blocks/slider-card/__price/slider-card__price.css);
+
+/* ======================== SLIDER ===================================== */
+
+@import url(../blocks/slider/slider.css);
