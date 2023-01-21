@@ -1,8 +1,11 @@
 .product__cards {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  /* width: 287px; */
+  /* flex-direction: row; */
+  /* justify-content: space-between; */
 
+  /* text-align: center; */
   margin: 0;
   padding: 0;
 }
