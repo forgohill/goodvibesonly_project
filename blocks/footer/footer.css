@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  max-width: 1220px;
+
+  position: relative;
+
+  margin: 98px auto 0;
+  padding: 0;
+
+  background-color: rgba(17, 0, 255, 0.2);
+}
