@@ -114,3 +114,18 @@
 /* ======================== SLIDER ===================================== */
 
 @import url(../blocks/slider/slider.css);
+
+/* ======================== CALLBACK ===================================== */
+
+@import url(../blocks/callback/callback.css);
+@import url(../blocks/callback/__title/callback__title.css);
+@import url(../blocks/callback/__snap-accent/callback__snap-accent.css);
+@import url(../blocks/callback/__btn-boo/callback__btn-book.css);
+@import url(../blocks/callback/__overlay/callback__overlay.css);
+@import url(../blocks/callback/__image/callback__image.css);
+@import url(../blocks/callback/__background/callback__background.css);
+
+/* ======================== DIVIDING-LINE ===================================== */
+
+@import url(../blocks/dividing-line/dividing-line.css);
+@import url(../blocks/dividing-line/__line/dividing-line__line.css);

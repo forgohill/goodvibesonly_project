@@ -1,0 +1,37 @@
+.callback__title {
+  position: relative;
+
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100px;
+  color: #FFFFFF;
+  text-shadow:
+    -0 -2px 0 rgba(40, 42, 48, 0.502),
+    0 -2px 0 rgba(40, 42, 48, 0.502),
+    -0 2px 0 rgba(40, 42, 48, 0.502),
+    0 2px 0 rgba(40, 42, 48, 0.502),
+    -2px -0 0 rgba(40, 42, 48, 0.502),
+    2px -0 0 rgba(40, 42, 48, 0.502),
+    -2px 0 0 rgba(40, 42, 48, 0.502),
+    2px 0 0 rgba(40, 42, 48, 0.502),
+    -1px -2px 0 rgba(40, 42, 48, 0.502),
+    1px -2px 0 rgba(40, 42, 48, 0.502),
+    -1px 2px 0 rgba(40, 42, 48, 0.502),
+    1px 2px 0 rgba(40, 42, 48, 0.502),
+    -2px -1px 0 rgba(40, 42, 48, 0.502),
+    2px -1px 0 rgba(40, 42, 48, 0.502),
+    -2px 1px 0 rgba(40, 42, 48, 0.502),
+    2px 1px 0 rgba(40, 42, 48, 0.502),
+    -2px -2px 0 rgba(40, 42, 48, 0.502),
+    2px -2px 0 rgba(40, 42, 48, 0.502),
+    -2px 2px 0 rgba(40, 42, 48, 0.502),
+    2px 2px 0 rgba(40, 42, 48, 0.502),
+    -2px -2px 0 rgba(40, 42, 48, 0.502),
+    2px -2px 0 rgba(40, 42, 48, 0.502),
+    -2px 2px 0 rgba(40, 42, 48, 0.502),
+    2px 2px 0 rgba(40, 42, 48, 0.502);
+
+  z-index: 10;
+}
