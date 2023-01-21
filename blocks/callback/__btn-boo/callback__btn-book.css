@@ -1,0 +1,24 @@
+.callback__btn-book {
+
+  position: relative;
+  background: #F7515C;
+  border: 0;
+  min-height: 78px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+
+  color: #FFFFFF;
+
+  text-align: center;
+  margin-top: 67px;
+  padding: 32px 67px;
+
+  cursor: pointer;
+  z-index: 10;
+}

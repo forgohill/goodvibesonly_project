@@ -1,0 +1,11 @@
+.callback__image {
+  position: absolute;
+
+  max-width: 506px;
+  object-fit: fill;
+
+  top: 35px;
+  right: 69px;
+
+  z-index: 3;
+}
