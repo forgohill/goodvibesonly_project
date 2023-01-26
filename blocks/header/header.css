@@ -3,10 +3,67 @@
   flex-direction: row;
   justify-content: space-between;
 
-  max-width: 1220px;
+  max-width: 1084px;
 
   margin: 0 auto;
-  padding-top: 71px;
+  padding: 71px 24px 0px;
 
   /* background-color: rgba(0, 255, 255, 0.3); */
+}
+
+@media screen and (min-width: 1440px) {
+  .header {
+    max-width: 1220px;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .header {
+    max-width: 868px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .header {
+    max-width: 812px;
+
+    justify-content: flex-start;
+
+    padding: 10px 10px 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 10px 0px 0px;
+    box-sizing: border-box;
+    max-width: 748px;
+  }
+}
+
+@media screen and (max-width: 748px) {
+  .header {
+    padding: 10px 10px 0px;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  .header {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .header {
+    max-width: 418px;
+    padding: 10px 0px 0px;
+
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    max-width: 310px;
+  }
+
 }

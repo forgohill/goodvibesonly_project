@@ -1,0 +1,46 @@
+.header__logo {
+  max-width: 375px;
+
+  margin: 0;
+  padding: 0;
+
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  text-decoration: none;
+
+  color: #282A30;
+}
+
+@media screen and (min-width: 1440px) {}
+
+@media screen and (max-width: 1070px) {
+  .header__logo {
+    width: 280px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .header__logo {
+    margin-right: 17px;
+  }
+}
+
+@media screen and (max-width: 748px) {
+  .header__logo {
+    width: 170px;
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  .header__logo {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {}

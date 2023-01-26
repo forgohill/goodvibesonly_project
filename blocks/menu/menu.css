@@ -1,0 +1,22 @@
+.menu {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 1440px) {}
+
+@media screen and (max-width: 1070px) {}
+
+@media screen and (max-width: 834px) {}
+
+@media screen and (max-width: 748px) {}
+
+@media screen and (max-width: 655px) {
+
+  .menu {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 320px) {}
