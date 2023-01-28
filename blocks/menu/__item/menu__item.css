@@ -1,0 +1,38 @@
+.menu__item:not(:last-child) {
+  display: block;
+  margin: 0 80px 0 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 1440px) {}
+
+@media screen and (max-width: 1070px) {
+  .menu__item:not(:last-child) {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 834px) {}
+
+@media screen and (max-width: 748px) {}
+
+@media screen and (max-width: 655px) {
+  .menu__item {
+    max-width: 655px;
+    min-width: 320px;
+  }
+
+  .menu__item:not(:last-child) {
+    padding: 20px 0;
+  }
+
+  .menu__item:last-child {
+    padding: 20px 0;
+  }
+
+  .menu__item:hover {
+    background-color: lightgoldenrodyellow;
+  }
+}
+
+@media screen and (max-width: 320px) {}
