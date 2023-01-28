@@ -11,30 +11,33 @@
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 
-<body>
+<body class="body">
   <div class="page">
-
     <header class="header">
-      <a href="#" class="header__logo">Good Vibes&nbsp;Only Apartments</a>
-      <nav class="header__menu menu">
-        <ul class="menu__list">
-          <li class="menu__item">
-            <a href="#" class="menu__link">Забронировать</a>
-          </li>
-          <li class="menu__item">
-            <a href="#" class="menu__link">О нас</a>
-          </li>
-          <li class="menu__item">
-            <a href="#" class="menu__link">Галерея</a>
-          </li>
-          <li class="menu__item">
-            <a href="#" class="menu__link">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-      <button type="button" class="header__burger"></button>
+      <div class="header__container">
+        <a href="#" class="header__logo">Good Vibes&nbsp;Only Apartments</a>
+        <div class="header__burger">
+          <span class="header__span"></span>
+        </div>
+        <nav class="header__menu menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="#" class="menu__link">Забронировать</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">О нас</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Галерея</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- <button type="button" class="header__burger"></button> -->
+      </div>
     </header>
-
     <!-- <main class="main">
       <section class="presentation">
         <div class="presentation__wrapper">
@@ -306,6 +309,7 @@
   <script src="./js/jquery-3.6.3.min.js"></script>
   <script src="./js/slick.min.js"></script>
   <script src="./js/slider__script.js"></script>
+  <script src="./js/menu__burger/menu__berger.js"></script>
 </body>
 
 </html>

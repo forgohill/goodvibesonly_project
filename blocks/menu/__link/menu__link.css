@@ -23,6 +23,15 @@
 
 @media screen and (max-width: 748px) {}
 
-@media screen and (max-width: 655px) {}
+@media screen and (max-width: 655px) {
+  .menu__link {
+    max-width: 655px;
+    min-width: 320px;
+
+    display: block;
+    font-size: 25px;
+    text-align: center;
+  }
+}
 
 @media screen and (max-width: 320px) {}

@@ -16,6 +16,23 @@
 
 @media screen and (max-width: 748px) {}
 
-@media screen and (max-width: 655px) {}
+@media screen and (max-width: 655px) {
+  .menu__item {
+    max-width: 655px;
+    min-width: 320px;
+  }
+
+  .menu__item:not(:last-child) {
+    padding: 20px 0;
+  }
+
+  .menu__item:last-child {
+    padding: 20px 0;
+  }
+
+  .menu__item:hover {
+    background-color: lightgoldenrodyellow;
+  }
+}
 
 @media screen and (max-width: 320px) {}

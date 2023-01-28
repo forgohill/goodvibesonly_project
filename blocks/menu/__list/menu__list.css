@@ -37,6 +37,12 @@
 
 @media screen and (max-width: 748px) {}
 
-@media screen and (max-width: 655px) {}
+@media screen and (max-width: 655px) {
+  .menu__list {
+    display: block;
+    max-width: 655px;
+    min-width: 320px;
+  }
+}
 
 @media screen and (max-width: 320px) {}

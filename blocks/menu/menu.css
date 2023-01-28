@@ -12,11 +12,27 @@
 @media screen and (max-width: 748px) {}
 
 @media screen and (max-width: 655px) {
-
+  /*
   .menu {
     display: none;
+  } */
+
+  .menu {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: floralwhite;
+
+    transition: all 0.3s ease 0s;
+    overflow: auto;
   }
 
+  .menu.active {
+    top: 0;
+  }
 }
 
 @media screen and (max-width: 320px) {}
