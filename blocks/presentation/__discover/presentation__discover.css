@@ -1,0 +1,41 @@
+.presentation__discover {
+  background: #F7515C;
+  border: 0;
+
+  min-width: 207px;
+  min-height: 78px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  align-self: flex-start;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+
+  color: #FFFFFF;
+
+  text-align: center;
+  padding: 5px 44px;
+
+  cursor: pointer;
+}
+
+
+@media screen and (min-width: 1440px) {}
+
+@media screen and (max-width: 1024px) {
+  /* .presentation__discover {
+    align-self: flex-start;
+  } */
+}
+
+@media screen and (max-width: 834px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 430px) {}
+
+@media screen and (max-width: 320px) {}

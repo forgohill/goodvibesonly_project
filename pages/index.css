@@ -32,24 +32,26 @@
 /* ======================== PRESENTATION ===================================== */
 
 @import url(../blocks/presentation/presentation.css);
+
 @import url(../blocks/presentation/__wrapper/presentation__wrapper.css);
 @import url(../blocks/presentation/__city/presentation__city.css);
 @import url(../blocks/presentation/__title/presentation__title.css);
 @import url(../blocks/presentation/__container/presentation__container.css);
-@import url(../blocks/presentation/__btn-discover/presentation__btn-discover.css);
+@import url(../blocks/presentation/__discover/presentation__discover.css);
 @import url(../blocks/presentation/__btn-container/presentation__watch.css);
-@import url(../blocks/presentation/__btn-play/presentation__btn-play.css);
+@import url(../blocks/presentation/__play/presentation__play.css);
 @import url(../blocks/presentation/__link/presentation__link.css);
+
+@import url(../blocks/presentation/__cover/presentation__cover.css);
 @import url(../blocks/presentation/__rectangle/presentation__rectangle.css);
-@import url(../blocks/presentation/__overlay-rectangle/presentation__overlay-rectangle.css);
 @import url(../blocks/presentation/__image/presentation__image.css);
 @import url(../blocks/presentation/__pattern/presentation__pattern.css);
 @import url(../blocks/presentation/__background/presentation__background.css);
 
-/* ======================== BTN-PLAY ===================================== */
+/* ======================== PLAY ===================================== */
 
-@import url(../blocks/btn-play/btn-play.css);
-@import url(../blocks/btn-play/__image/btn-play__image.css);
+@import url(../blocks/play/play.css);
+@import url(../blocks/play/__image/play__image.css);
 
 /* ======================== ABOUT ===================================== */
 

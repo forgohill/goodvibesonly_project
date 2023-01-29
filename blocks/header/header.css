@@ -1,10 +1,16 @@
 .header {
-  position: fixed;
+  /* position: fixed; */
+
+  position: absolute;
+  margin: -207px 0 0;
+
   width: 100%;
   top: 0;
   left: 0;
 
   z-index: 50;
+
+
 }
 
 .header::before {
@@ -17,4 +23,35 @@
   background-color: #FFF;
 
   z-index: 15;
+
+
 }
+
+
+@media screen and (min-width: 1400px) {}
+
+/* 1280 - default*/
+
+@media screen and (max-width: 1024px) {
+  .header {
+    margin: -194px 0 0;
+  }
+}
+
+@media screen and (max-width: 834px) {}
+
+@media screen and (max-width: 768px) {
+  .header {
+    position: fixed;
+    margin: 0;
+    transition: all 0.3s ease 0s;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  /* .header {} */
+}
+
+@media screen and (max-width: 430px) {}
+
+@media screen and (max-width: 320px) {}

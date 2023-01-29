@@ -1,7 +1,39 @@
 .presentation__pattern {
   position: absolute;
-  right: -59px;
-  top: 60px;
 
+
+  right: 39px;
+  top: 18px;
   z-index: 2;
 }
+
+@media screen and (min-width: 1440px) {}
+
+/* 1280 - default*/
+
+@media screen and (max-width: 1024px) {
+  .presentation__pattern {
+
+
+
+    right: 19px;
+
+
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .presentation__pattern {
+    right: -48px;
+  }
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 430px) {
+  .presentation__pattern {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 320px) {}
