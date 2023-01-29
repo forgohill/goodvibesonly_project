@@ -13,9 +13,11 @@
 
   z-index: 16;
   position: relative;
+
+  transition: all 0.5s ease 0s;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1281px) {
   .header__container {
     max-width: 1220px;
   }
@@ -24,6 +26,7 @@
 @media screen and (max-width: 1070px) {
   .header__container {
     max-width: 868px;
+    padding: 10px 24px 0px;
   }
 }
 
@@ -42,6 +45,8 @@
     padding: 10px 0px 0px;
     box-sizing: border-box;
     max-width: 748px;
+
+    transition: none;
   }
 }
 
@@ -61,7 +66,7 @@
   .header__container {
     max-width: 430px;
     min-width: 320px;
-    padding: 10px 6px 0px;
+    padding: 11px 6px 0px;
 
   }
 }

@@ -1,10 +1,39 @@
 .presentation {
   max-width: 100%;
-
+  min-height: 100%;
   position: relative;
 
-  margin: 0 auto;
-  padding: 153px 0 231px;
+  margin: 207px auto;
+  padding: 0;
 
-  /* background-color: rgba(0, 0, 255, 0.2); */
+  /* background-color: rgba(123, 255, 0, 0.2); */
+}
+
+@media screen and (min-width: 1440px) {}
+
+/* 1280 - default*/
+
+@media screen and (max-width: 1024px) {
+  .presentation {
+    margin: 194px auto;
+
+  }
+}
+
+@media screen and (max-width: 834px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 430px) {
+  .presentation {
+    margin: 127px auto;
+
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .presentation {
+    margin: 132px auto;
+
+  }
 }

@@ -7,6 +7,25 @@
   align-items: center;
 
 
-  margin: 0;
+  margin: 67px 0 0;
   padding: 0;
+
 }
+
+@media screen and (min-width: 1440px) {
+  .presentation__watch {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 834px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 430px) {}
+
+@media screen and (max-width: 320px) {}
