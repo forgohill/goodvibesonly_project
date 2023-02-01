@@ -1,0 +1,56 @@
+.advantage__spanaccent {
+  display: block;
+
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 64px;
+  color: #FFFFFF;
+  text-shadow:
+    -0 -2px 0 rgba(40, 42, 48, 0.502),
+    0 -2px 0 rgba(40, 42, 48, 0.502),
+    -0 2px 0 rgba(40, 42, 48, 0.502),
+    0 2px 0 rgba(40, 42, 48, 0.502),
+    -2px -0 0 rgba(40, 42, 48, 0.502),
+    2px -0 0 rgba(40, 42, 48, 0.502),
+    -2px 0 0 rgba(40, 42, 48, 0.502),
+    2px 0 0 rgba(40, 42, 48, 0.502),
+    -1px -2px 0 rgba(40, 42, 48, 0.502),
+    1px -2px 0 rgba(40, 42, 48, 0.502),
+    -1px 2px 0 rgba(40, 42, 48, 0.502),
+    1px 2px 0 rgba(40, 42, 48, 0.502),
+    -2px -1px 0 rgba(40, 42, 48, 0.502),
+    2px -1px 0 rgba(40, 42, 48, 0.502),
+    -2px 1px 0 rgba(40, 42, 48, 0.502),
+    2px 1px 0 rgba(40, 42, 48, 0.502),
+    -2px -2px 0 rgba(40, 42, 48, 0.502),
+    2px -2px 0 rgba(40, 42, 48, 0.502),
+    -2px 2px 0 rgba(40, 42, 48, 0.502),
+    2px 2px 0 rgba(40, 42, 48, 0.502),
+    -2px -2px 0 rgba(40, 42, 48, 0.502),
+    2px -2px 0 rgba(40, 42, 48, 0.502),
+    -2px 2px 0 rgba(40, 42, 48, 0.502),
+    2px 2px 0 rgba(40, 42, 48, 0.502);
+}
+
+@media screen and (min-width: 1440px) {}
+
+/* 1280 - default*/
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 834px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 667px) {
+  .advantage__spanaccent {
+    font-size: 40px;
+    line-height: 1.5;
+  }
+}
+
+@media screen and (max-width: 430px) {}
+
+@media screen and (max-width: 320px) {}

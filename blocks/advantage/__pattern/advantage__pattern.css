@@ -2,6 +2,38 @@
   position: absolute;
   height: 306px;
   width: 482px;
-  left: 185px;
-  bottom: 0px;
+  top: 720px;
+  left: 283px;
+
+  z-index: 2;
+}
+
+@media screen and (min-width: 1440px) {
+  .advantage__pattern {
+    left: 295px;
+  }
+}
+
+/* 1280 - default*/
+
+@media screen and (max-width: 1024px) {
+  .advantage__pattern {
+    left: 263px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .advantage__pattern {
+    left: 185px;
+  }
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 430px) {}
+
+@media screen and (max-width: 320px) {
+  .advantage__pattern {
+    display: none;
+  }
 }

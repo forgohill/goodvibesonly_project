@@ -73,8 +73,11 @@
 
 @import url(../blocks/advantage/advantage.css);
 @import url(../blocks/advantage/__title/advantage__title.css);
-@import url(../blocks/advantage/__span-accent/advantage__span-accent.css);
+@import url(../blocks/advantage/__spanaccent/advantage__spanaccent.css);
 @import url(../blocks/advantage/__image/advantage__image.css);
+
+
+@import url(../blocks/advantage/__container/advantage__container.css);
 @import url(../blocks/advantage/__card/advantage__card.css);
 @import url(../blocks/advantage/__card/_one/advantage__card_one.css);
 @import url(../blocks/advantage/__card/_two/advantage__card_two.css);
@@ -146,3 +149,7 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__icon/intro__icon.css);
 @import url(../blocks/intro/__subtilte/intro__subtilte.css);
+
+
+/* ======================== TRANSITION ===================================== */
+@import url(../blocks/transition/_level/transition_level_one.css);
