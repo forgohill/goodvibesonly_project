@@ -32,6 +32,7 @@
 
 @media screen and (max-width: 834px) {
   .about__wrapper {
+    max-width: 488px;
     padding: 52px 0 0;
 
   }
