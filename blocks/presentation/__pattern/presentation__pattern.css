@@ -7,7 +7,11 @@
   z-index: 2;
 }
 
-@media screen and (min-width: 1440px) {}
+@media screen and (min-width: 1440px) {
+  .presentation__pattern {
+    right: 50px;
+  }
+}
 
 /* 1280 - default*/
 

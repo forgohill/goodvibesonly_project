@@ -44,12 +44,14 @@
 
 @media screen and (max-width: 430px) {
   .presentation__wrapper {
-    padding: 112px 10px 37px;
+    padding: 112px 10px 97px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .presentation__wrapper {
-    padding: 15px 10px 21px;
+    min-height: 539px;
+    padding: 15px 10px 0px;
+
   }
 }

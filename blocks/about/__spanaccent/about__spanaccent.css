@@ -1,4 +1,4 @@
-.about__snap-accent {
+.about__spanaccent {
   display: block;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
@@ -31,4 +31,31 @@
     -2px 2px 0 rgba(40, 42, 48, 0.502),
     2px 2px 0 rgba(40, 42, 48, 0.502);
   /* opacity: 0.8; */
+}
+
+@media screen and (min-width: 1440px) {}
+
+/* 1280 - default*/
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 834px) {}
+
+@media screen and (max-width: 768px) {
+  .about__spanaccent {}
+}
+
+@media screen and (max-width: 430px) {
+  .about__spanaccent {
+    display: block;
+    max-width: 302px;
+    font-size: 48px;
+    line-height: 1.5;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about__spanaccent {
+    font-size: 40px;
+  }
 }
