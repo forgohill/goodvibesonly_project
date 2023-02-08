@@ -1,0 +1,25 @@
+.product__slider {
+  display: flex;
+  flex-direction: column;
+  /* width: 287px; */
+  /* flex-direction: row; */
+  /* justify-content: space-between; */
+
+  /* text-align: center; */
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 1440px) {}
+
+/* 1280 - default*/
+
+@media screen and (max-width: 1124px) {}
+
+@media screen and (max-width: 834px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 430px) {}
+
+@media screen and (max-width: 320px) {}
