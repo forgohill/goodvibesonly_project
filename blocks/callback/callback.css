@@ -1,10 +1,32 @@
 .callback {
   max-width: 100%;
-
+  min-height: 812px;
   position: relative;
 
-  margin: 0 auto;
-  padding: 193px 0 309px;
+  margin: 40px auto 0;
+  padding: 0;
 
-  /* background-color: rgba(17, 0, 255, 0.2); */
+  background-color: rgba(17, 0, 255, 0.2);
+}
+
+@media screen and (min-width: 1440px) {}
+
+/* 1280 - default*/
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 834px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 430px) {
+  .callback {
+    margin: 30px auto 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .callback {
+    min-height: 480px;
+  }
 }

@@ -4,8 +4,44 @@
   max-width: 506px;
   object-fit: fill;
 
-  top: 35px;
-  right: 69px;
+  top: 98px;
+  right: 168px;
 
   z-index: 3;
+}
+
+@media screen and (min-width: 1440px) {
+  .callback__image {
+    right: 180px;
+  }
+}
+
+/* 1280 - default*/
+
+@media screen and (max-width: 1024px) {
+  .callback__image {
+    right: 148px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .callback__image {
+    right: 81px;
+  }
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 430px) {
+  .callback__image {
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .callback__image {
+    max-width: 320px;
+    height: 480px;
+    top: 0;
+  }
 }

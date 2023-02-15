@@ -1,0 +1,40 @@
+.callback__wrapper {
+  width: 100%;
+  max-width: 1104px;
+
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 252px 10px 0;
+
+}
+
+@media screen and (min-width: 1440px) {
+  .callback__wrapper {
+    max-width: 1240px;
+  }
+}
+
+/* 1280 - default*/
+
+@media screen and (max-width: 1110px) {
+  .callback__wrapper {
+    max-width: 888px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .callback__wrapper {
+    max-width: 832px;
+  }
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 430px) {}
+
+@media screen and (max-width: 320px) {
+  .callback__wrapper {
+    padding: 40px 10px 0;
+
+  }
+}
