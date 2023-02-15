@@ -3,10 +3,46 @@
   width: 739px;
   height: 504px;
 
-  right: 206px;
-  top: -63px;
+  right: 305px;
+  top: 0;
 
   background: rgba(251, 251, 251, 0.4);
 
   z-index: 4;
+}
+
+@media screen and (min-width: 1440px) {
+  .callback__overlay {
+    right: 317px;
+  }
+}
+
+/* 1280 - default*/
+
+@media screen and (max-width: 1024px) {
+  .callback__overlay {
+    right: 285px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .callback__overlay {
+    right: 218px;
+  }
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 430px) {
+  .callback__overlay {
+    right: 69px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .callback__overlay {
+    width: 324px;
+    height: 280px;
+    right: 141px;
+  }
 }
