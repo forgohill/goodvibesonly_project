@@ -9,8 +9,6 @@
   }
 }
 
-/* 1280 - default*/
-
 @media screen and (max-width: 1024px) {
   .advantage__card_tree {
     right: 84px;
@@ -22,13 +20,3 @@
     right: 79px;
   }
 }
-
-@media screen and (max-width: 768px) {}
-
-@media screen and (max-width: 667px) {
-  /* .advantage__card_tree {} */
-}
-
-@media screen and (max-width: 430px) {}
-
-@media screen and (max-width: 320px) {}

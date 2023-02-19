@@ -58,8 +58,6 @@
   }
 }
 
-@media screen and (max-width: 430px) {}
-
 @media screen and (max-width: 370px) {
   .advantage__title {
     max-width: 300px;

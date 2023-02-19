@@ -22,7 +22,7 @@
   transition: all 0.5s ease 0s;
 }
 
-@media screen and (min-width: 1440px) {}
+
 
 /* 1280 - default*/
 
@@ -42,17 +42,11 @@
   }
 }
 
-@media screen and (max-width: 834px) {}
-
-@media screen and (max-width: 768px) {}
-
 @media screen and (max-width: 667px) {
   .advantage__image {
     margin: 30px auto 0;
   }
 }
-
-@media screen and (max-width: 430px) {}
 
 @media screen and (max-width: 320px) {
   .advantage__image {

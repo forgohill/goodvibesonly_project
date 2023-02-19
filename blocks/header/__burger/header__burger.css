@@ -49,29 +49,3 @@
 
   }
 }
-
-
-
-
-
-/* .header__burger {
-  display: none;
-  width: 39px;
-  height: 34px;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: none;
-  background-color: transparent;
-
-  background: url(../../../images/__burgerMenu.svg);
-  cursor: pointer;
-}
-
-@media screen and (max-width: 655px) {
-  .header__burger {
-    display: block;
-
-    margin: 26px 29px 0 0;
-  }
-} */

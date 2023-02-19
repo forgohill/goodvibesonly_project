@@ -1,15 +1,1 @@
 /* .product__slider_enabled {} */
-
-@media screen and (min-width: 1440px) {}
-
-/* 1280 - default*/
-
-@media screen and (max-width: 1024px) {}
-
-@media screen and (max-width: 834px) {}
-
-@media screen and (max-width: 768px) {}
-
-@media screen and (max-width: 430px) {}
-
-@media screen and (max-width: 320px) {}

@@ -19,8 +19,6 @@
   }
 }
 
-/* 1280 - default*/
-
 @media screen and (max-width: 1024px) {
   .presentation__rectangle {
     left: -32px;
@@ -32,9 +30,3 @@
     display: none;
   }
 }
-
-@media screen and (max-width: 768px) {}
-
-@media screen and (max-width: 430px) {}
-
-@media screen and (max-width: 320px) {}

@@ -12,10 +12,6 @@
   }
 }
 
-@media screen and (max-width: 834px) {}
-
-@media screen and (max-width: 748px) {}
-
 @media screen and (max-width: 655px) {
   .menu__item {
     max-width: 655px;
@@ -34,5 +30,3 @@
     background-color: lightgoldenrodyellow;
   }
 }
-
-@media screen and (max-width: 320px) {}

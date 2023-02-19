@@ -9,24 +9,13 @@
   position: relative;
   display: flex;
   justify-content: flex-end;
-
-
-  /* background-color: rgba(0, 229, 255, 0.2); */
 }
-
-@media screen and (min-width: 1440px) {}
-
-/* 1280 - default*/
-
-@media screen and (max-width: 1024px) {}
 
 @media screen and (max-width: 834px) {
   .about {
     padding: 0 10px 0;
   }
 }
-
-@media screen and (max-width: 768px) {}
 
 @media screen and (max-width: 510px) {
   .about {

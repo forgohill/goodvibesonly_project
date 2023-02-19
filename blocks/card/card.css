@@ -23,12 +23,6 @@
   transition: all 0.5s ease 0s;
 }
 
-@media screen and (min-width: 1440px) {}
-
-/* 1280 - default*/
-
-@media screen and (max-width: 1024px) {}
-
 @media screen and (max-width: 834px) {
   .card {
     max-width: 407px;
@@ -36,11 +30,6 @@
     padding: 22px 22px 36px 22px;
   }
 }
-
-@media screen and (max-width: 768px) {}
-
-
-@media screen and (max-width: 430px) {}
 
 @media screen and (max-width: 320px) {
   .card {

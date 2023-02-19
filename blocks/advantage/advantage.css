@@ -7,21 +7,7 @@
   padding: 0;
 
   position: relative;
-
-  /* background-color: rgba(255, 230, 0, 0.2); */
 }
-
-@media screen and (min-width: 1440px) {}
-
-/* 1280 - default*/
-
-@media screen and (max-width: 1024px) {
-  /* .advantage {
-
-  } */
-}
-
-@media screen and (max-width: 834px) {}
 
 @media screen and (max-width: 768px) {
   .advantage {
@@ -40,8 +26,6 @@
     min-height: 945px;
   }
 }
-
-@media screen and (max-width: 430px) {}
 
 @media screen and (max-width: 320px) {
   .advantage {

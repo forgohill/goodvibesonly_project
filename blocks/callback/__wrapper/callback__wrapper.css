@@ -14,8 +14,6 @@
   }
 }
 
-/* 1280 - default*/
-
 @media screen and (max-width: 1110px) {
   .callback__wrapper {
     max-width: 888px;
@@ -27,10 +25,6 @@
     max-width: 832px;
   }
 }
-
-@media screen and (max-width: 768px) {}
-
-@media screen and (max-width: 430px) {}
 
 @media screen and (max-width: 320px) {
   .callback__wrapper {

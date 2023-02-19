@@ -33,14 +33,6 @@
   /* opacity: 0.8; */
 }
 
-@media screen and (min-width: 1440px) {}
-
-/* 1280 - default*/
-
-@media screen and (max-width: 1024px) {}
-
-@media screen and (max-width: 834px) {}
-
 @media screen and (max-width: 768px) {
   .about__spanaccent {}
 }
