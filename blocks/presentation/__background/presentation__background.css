@@ -2,10 +2,30 @@
   position: absolute;
   width: 896px;
   height: 698px;
-  left: -125px;
-  top: 50px;
+  left: -29px;
+  top: 10px;
 
   opacity: 0.05;
 
   z-index: 2;
+}
+
+/* 1280 - default*/
+
+@media screen and (max-width: 1024px) {
+  .presentation__background {
+    left: -49px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .presentation__background {
+    left: -116px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .presentation__background {
+    display: none;
+  }
 }

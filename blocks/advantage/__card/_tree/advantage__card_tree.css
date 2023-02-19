@@ -1,4 +1,22 @@
 .advantage__card_tree {
-  right: -37px;
-  bottom: 122px;
+  top: 720px;
+  right: 104px;
+}
+
+@media screen and (min-width: 1440px) {
+  .advantage__card_tree {
+    right: 116px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .advantage__card_tree {
+    right: 84px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .advantage__card_tree {
+    right: 79px;
+  }
 }

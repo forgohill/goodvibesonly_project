@@ -1,10 +1,35 @@
 .product {
   max-width: 100%;
+  height: 100%;
+  min-height: 693px;
+
+  margin: 40px auto 0;
+  padding: 0 98px;
 
   position: relative;
+}
 
-  margin: 0 auto;
-  padding: 165px 0 192px;
+@media screen and (min-width: 1440px) {
+  .product {
+    padding: 0 110px;
+  }
+}
 
-  /* background-color: rgba(255, 0, 195, 0.2); */
+
+@media screen and (max-width: 1124px) {
+  .product {
+    padding: 0 78px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .product {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .product {
+    margin: 30px auto 0;
+  }
 }

@@ -1,0 +1,29 @@
+.menu__link {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 1.2;
+
+  letter-spacing: 1px;
+  color: #282A30;
+
+  text-decoration: none;
+}
+
+@media screen and (max-width: 834px) {
+  .menu__link {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  .menu__link {
+    max-width: 655px;
+    min-width: 320px;
+
+    display: block;
+    font-size: 25px;
+    text-align: center;
+  }
+}

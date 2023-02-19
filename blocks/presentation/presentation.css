@@ -1,10 +1,28 @@
 .presentation {
   max-width: 100%;
-
+  min-height: 100%;
   position: relative;
 
-  margin: 0 auto;
-  padding: 153px 0 231px;
+  margin: 207px auto 0;
+  padding: 0;
+}
 
-  /* background-color: rgba(0, 0, 255, 0.2); */
+@media screen and (max-width: 1024px) {
+  .presentation {
+    margin: 194px auto 0;
+
+  }
+}
+
+@media screen and (max-width: 748px) {
+  .presentation {
+    margin: 127px auto 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .presentation {
+    margin: 132px auto 0;
+
+  }
 }

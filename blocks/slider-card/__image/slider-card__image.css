@@ -10,3 +10,11 @@
   object-fit: fill;
   object-position: center;
 }
+
+@media screen and (max-width: 430px) {
+  .slider-card__image {
+    width: 100%;
+
+    object-fit: cover;
+  }
+}

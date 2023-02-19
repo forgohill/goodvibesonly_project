@@ -25,5 +25,34 @@ $(document).ready(function () {
     slidePerRow: 1,
     vertcal: false,
     vertcalSwiping: false,
+    responsive: [
+      {
+        breakpoint: 1360,
+        settings: {
+          slidesToShow: 3,
+        }
+      }, {
+        breakpoint: 1020,
+        settings: {
+          slidesToShow: 2,
+        }
+      }, {
+        breakpoint: 666,
+        settings: {
+          slidesToShow: 1,
+          arrows: false,
+        }
+      }, {
+        breakpoint: 431,
+        settings: {
+          slidesToShow: 1,
+          arrows: false,
+          dots: false,
+          swipe: false,
+          autoplay: false,
+          rows: 1,
+        }
+      }
+    ],
   });
 });

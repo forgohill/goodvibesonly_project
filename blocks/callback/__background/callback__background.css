@@ -4,9 +4,36 @@
   width: 482px;
   height: 300px;
 
-  top: 423px;
-  right: 0;
+  top: 484px;
+  right: 98px;
+
   background-image: url(../../../images/callback__background.svg);
 
   z-index: 2;
+}
+
+@media screen and (min-width: 1440px) {
+  .callback__background {
+    right: 110px;
+  }
+}
+
+/* 1280 - default*/
+
+@media screen and (max-width: 1024px) {
+  .callback__background {
+    right: 78px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .callback__background {
+    right: 11px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .callback__background {
+    display: none;
+  }
 }

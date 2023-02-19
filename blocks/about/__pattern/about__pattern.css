@@ -1,5 +1,31 @@
 .about__pattern {
   position: absolute;
-  left: 93px;
-  bottom: 0px;
+  left: 191px;
+  top: 504px;
+}
+
+@media screen and (min-width: 1440px) {
+  .about__pattern {
+    left: 203px;
+  }
+}
+
+/* 1280 - default*/
+
+@media screen and (max-width: 1024px) {
+  .about__pattern {
+    left: 171px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .about__pattern {
+    left: 93px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about__pattern {
+    display: none;
+  }
 }

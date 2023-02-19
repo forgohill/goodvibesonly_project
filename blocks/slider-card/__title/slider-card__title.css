@@ -14,3 +14,9 @@
 
   color: #282A30;
 }
+
+@media screen and (max-width: 430px) {
+  .slider-card__title {
+    margin: 37px 0 0;
+  }
+}

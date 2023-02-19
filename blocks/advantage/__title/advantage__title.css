@@ -1,6 +1,9 @@
 .advantage__title {
-  margin: 0;
-  padding: 0;
+  width: 100%;
+  max-width: 976px;
+
+  margin: 0 auto;
+  padding: 0 108px 0 0;
 
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
@@ -8,4 +11,55 @@
   line-height: 1.22;
 
   color: #282A30;
+}
+
+@media screen and (min-width: 1440px) {
+  .advantage__title {
+    padding: 0 244px 0 0;
+  }
+}
+
+/* 1280 - default*/
+
+@media screen and (max-width: 1150px) {
+  .advantage__title {
+    max-width: 868px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .advantage__title {
+    max-width: 748px;
+    padding: 0 65px 0 0;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .advantage__title {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .advantage__title {
+    align-self: flex-start;
+    margin: 0;
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .advantage__title {
+    max-width: 410px;
+
+    font-size: 36px;
+    line-height: 1.5;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .advantage__title {
+    max-width: 300px;
+  }
 }

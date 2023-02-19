@@ -1,5 +1,47 @@
 .dividing-line__line {
+  width: 100%;
+  max-width: 1084px;
   height: 2px;
 
+
+  margin: 0 auto;
   background: #282A30;
+}
+
+@media screen and (min-width: 1440px) {
+  .dividing-line__line {
+    max-width: 1220px;
+  }
+}
+
+/* 1280 - default*/
+
+@media screen and (max-width: 1024px) {
+  .dividing-line__line {
+    max-width: 868px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .dividing-line__line {
+    max-width: 812px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .dividing-line__line {
+    max-width: 748px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .dividing-line__line {
+    max-width: 418px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .dividing-line__line {
+    max-width: 300px;
+  }
 }

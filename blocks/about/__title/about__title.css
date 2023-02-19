@@ -10,3 +10,10 @@
 
   color: #282A30;
 }
+
+@media screen and (max-width: 320px) {
+  .about__title {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+}

@@ -12,3 +12,9 @@
 
   color: rgba(40, 42, 48, 0.3);
 }
+
+@media screen and (max-width: 430px) {
+  .slider-card__price {
+    margin: 37px 0 0;
+  }
+}

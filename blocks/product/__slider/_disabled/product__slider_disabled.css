@@ -1,0 +1,10 @@
+.product__slider_disabled {
+  display: none;
+}
+
+@media screen and (max-width: 430px) {
+  .product__slider_disabled {
+    display: flex;
+
+  }
+}

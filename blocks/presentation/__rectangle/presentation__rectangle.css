@@ -2,10 +2,31 @@
   position: absolute;
   width: 35px;
   height: 264px;
-  left: -110px;
-  top: 65px;
+
+  top: 23px;
+  left: -12px;
+
 
   background: #F7515C;
 
   z-index: 2;
+  transition: all 0.3s ease 0s;
+}
+
+@media screen and (min-width: 1440px) {
+  .presentation__rectangle {
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .presentation__rectangle {
+    left: -32px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .presentation__rectangle {
+    display: none;
+  }
 }

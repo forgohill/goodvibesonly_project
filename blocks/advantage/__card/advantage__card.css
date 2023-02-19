@@ -1,3 +1,15 @@
 .advantage__card {
   position: absolute;
 }
+
+@media screen and (max-width: 667px) {
+  .advantage__card {
+    position: static;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .advantage__card {
+    width: 100%;
+  }
+}

@@ -9,32 +9,21 @@
 
 @import url(../blocks/page/page.css);
 
-/* ======================== PxP ===================================== */
-
-/* @import url(../blocks/pxp/pxp.css); */
 
 /* ======================== HEADER ===================================== */
 
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__logo-text/header__logo-text.css);
-@import url(../blocks/header/__logo-link/header__logo-link.css);
-@import url(../blocks/header/__links/header__links.css);
-@import url(../blocks/header/__link-wrapper/header__link-wrapper.css);
-@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__burger/header__burger.css);
+@import url(../blocks/header/__span/header__span.css);
 
-/* ======================== INTRO ===================================== */
+/* ======================== MENU ================================ */
 
-@import url(../blocks/intro/intro.css);
-@import url(../blocks/intro/__title/intro__title.css);
-@import url(../blocks/intro/__icon/intro__icon.css);
-@import url(../blocks/intro/__subtilte/intro__subtilte.css);
-
-/* ======================== HEADER ===================================== */
-
-@import url(../blocks/header/header.css);
-@import url(../blocks/header/__logo-text/header__logo-text.css);
-@import url(../blocks/header/__links/header__links.css);
-@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__list/menu__list.css);
+@import url(../blocks/menu/__item/menu__item.css);
+@import url(../blocks/menu/__link/menu__link.css);
 
 /* ======================== MAIN ===================================== */
 
@@ -43,44 +32,52 @@
 /* ======================== PRESENTATION ===================================== */
 
 @import url(../blocks/presentation/presentation.css);
+
 @import url(../blocks/presentation/__wrapper/presentation__wrapper.css);
 @import url(../blocks/presentation/__city/presentation__city.css);
 @import url(../blocks/presentation/__title/presentation__title.css);
 @import url(../blocks/presentation/__container/presentation__container.css);
-@import url(../blocks/presentation/__btn-discover/presentation__btn-discover.css);
+@import url(../blocks/presentation/__discover/presentation__discover.css);
 @import url(../blocks/presentation/__btn-container/presentation__watch.css);
-@import url(../blocks/presentation/__btn-play/presentation__btn-play.css);
+@import url(../blocks/presentation/__play/presentation__play.css);
 @import url(../blocks/presentation/__link/presentation__link.css);
+
+@import url(../blocks/presentation/__cover/presentation__cover.css);
 @import url(../blocks/presentation/__rectangle/presentation__rectangle.css);
-@import url(../blocks/presentation/__overlay-rectangle/presentation__overlay-rectangle.css);
 @import url(../blocks/presentation/__image/presentation__image.css);
 @import url(../blocks/presentation/__pattern/presentation__pattern.css);
 @import url(../blocks/presentation/__background/presentation__background.css);
 
-/* ======================== BTN-PLAY ===================================== */
+/* ======================== PLAY ===================================== */
 
-@import url(../blocks/btn-play/btn-play.css);
-@import url(../blocks/btn-play/__image/btn-play__image.css);
+@import url(../blocks/play/play.css);
+@import url(../blocks/play/__image/play__image.css);
 
 /* ======================== ABOUT ===================================== */
 
 @import url(../blocks/about/about.css);
+
 @import url(../blocks/about/__wrapper/about__wrapper.css);
 @import url(../blocks/about/__title/about__title.css);
-@import url(../blocks/about/__snap-accent/about__snap-accent.css);
+@import url(../blocks/about/__spanaccent/about__spanaccent.css);
 @import url(../blocks/about/__subtitle/about__subtitle.css);
-@import url(../blocks/about/__btn-read/about__btn-read.css);
+@import url(../blocks/about/__read/about__read.css);
+
+@import url(../blocks/about/__cover/about__cover.css);
 @import url(../blocks/about/__image/about__image.css);
-@import url(../blocks/about/__rectangle_two/about__rectangle_two.css);
 @import url(../blocks/about/__rectangle_one/about__rectangle_one.css);
+@import url(../blocks/about/__rectangle_two/about__rectangle_two.css);
 @import url(../blocks/about/__pattern/about__pattern.css);
 
 /* ======================== ADVANTEG ===================================== */
 
 @import url(../blocks/advantage/advantage.css);
 @import url(../blocks/advantage/__title/advantage__title.css);
-@import url(../blocks/advantage/__span-accent/advantage__span-accent.css);
+@import url(../blocks/advantage/__spanaccent/advantage__spanaccent.css);
 @import url(../blocks/advantage/__image/advantage__image.css);
+
+
+@import url(../blocks/advantage/__container/advantage__container.css);
 @import url(../blocks/advantage/__card/advantage__card.css);
 @import url(../blocks/advantage/__card/_one/advantage__card_one.css);
 @import url(../blocks/advantage/__card/_two/advantage__card_two.css);
@@ -100,13 +97,17 @@
 @import url(../blocks/product/product.css);
 @import url(../blocks/product/__title/product__title.css);
 @import url(../blocks/product/__span-accent/product__span-accent.css);
-@import url(../blocks/product/__cards/product__cards.css);
+@import url(../blocks/product/__slider/product__slider.css);
+@import url(../blocks/product/__slider/_enabled/product__slider_enabled.css);
+@import url(../blocks/product/__slider/_disabled/product__slider_disabled.css);
 @import url(../blocks/product/__card/product__card.css);
+
 
 /* ======================== SLIDER-CARD ===================================== */
 
 @import url(../blocks/slider-card/slider-card.css);
 @import url(../blocks/slider-card/__link/slider-card__link.css);
+@import url(../blocks/slider-card/slider-card__hover/slider-card__hover.css);
 @import url(../blocks/slider-card/__image/slider-card__image.css);
 @import url(../blocks/slider-card/__title/slider-card__title.css);
 @import url(../blocks/slider-card/__price/slider-card__price.css);
@@ -118,6 +119,7 @@
 /* ======================== CALLBACK ===================================== */
 
 @import url(../blocks/callback/callback.css);
+@import url(../blocks/callback/__wrapper/callback__wrapper.css);
 @import url(../blocks/callback/__title/callback__title.css);
 @import url(../blocks/callback/__snap-accent/callback__snap-accent.css);
 @import url(../blocks/callback/__btn-boo/callback__btn-book.css);
@@ -133,11 +135,31 @@
 /* ======================== FOOTER ===================================== */
 
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__container/footer__container.css);
+
+@import url(../blocks/footer/__column/footer__column.css);
 @import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__list/footer__list.css);
 @import url(../blocks/footer/__links/footer__links.css);
-@import url(../blocks/footer/__sale/footer__sale.css);
+@import url(../blocks/footer/__links/_paragraphs/footer__links_paragraphs.css);
+@import url(../blocks/footer/__item/footer__item.css);
 @import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__link/_sale/footer__link_sale.css);
 @import url(../blocks/footer/__contacts/footer__contacts.css);
-@import url(../blocks/footer/__paragraphs/footer__paragraphs.css);
 @import url(../blocks/footer/__paragraph/footer__paragraph.css);
+
+
+/* ======================== INTRO ===================================== */
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__icon/intro__icon.css);
+@import url(../blocks/intro/__subtilte/intro__subtilte.css);
+
+
+/* ======================== TRANSITION ===================================== */
+@import url(../blocks/transition/_level/transition_level_one.css);
+
+
+/* ======================== LINKS ===================================== */
+@import url(../blocks/links/_text/links_text.css);

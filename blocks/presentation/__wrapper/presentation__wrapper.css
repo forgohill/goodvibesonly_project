@@ -1,4 +1,48 @@
 .presentation__wrapper {
+
+  min-height: 549px;
   position: relative;
   z-index: 10;
+
+  padding: 112px 98px 106px;
+}
+
+
+
+@media screen and (min-width: 1440px) {
+  .presentation__wrapper {
+    padding: 112px 110px 106px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .presentation__wrapper {
+    padding: 112px 79px 106px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .presentation__wrapper {
+    padding: 112px 11px 106px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .presentation__wrapper {
+    padding: 112px 10px 106px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .presentation__wrapper {
+    padding: 112px 10px 97px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .presentation__wrapper {
+    min-height: 539px;
+    padding: 15px 10px 0px;
+
+  }
 }

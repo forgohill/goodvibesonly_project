@@ -2,3 +2,15 @@
   margin: 44px 0 0;
   padding: 0;
 }
+
+@media screen and (max-width: 1124px) {
+  .slider-card {
+    margin: 88px 0 0;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .slider-card {
+    margin: 38px 0 0;
+  }
+}

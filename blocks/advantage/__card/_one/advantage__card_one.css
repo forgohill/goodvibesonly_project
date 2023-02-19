@@ -1,4 +1,25 @@
 .advantage__card_one {
-  left: -58px;
-  top: 556px;
+  top: 348px;
+  left: 84px;
+}
+
+@media screen and (min-width: 1440px) {
+  .advantage__card_one {
+    left: 96px;
+  }
+}
+
+/* 1280 - default*/
+
+@media screen and (max-width: 1024px) {
+  .advantage__card_one {
+    left: 14px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .advantage__card_one {
+    top: 388px;
+    left: 0;
+  }
 }
