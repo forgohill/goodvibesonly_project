@@ -21,16 +21,6 @@
   cursor: pointer;
 }
 
-@media screen and (min-width: 1440px) {}
-
-/* 1280 - default*/
-
-@media screen and (max-width: 1024px) {}
-
-@media screen and (max-width: 834px) {}
-
-@media screen and (max-width: 768px) {}
-
 @media screen and (max-width: 430px) {
   .about__read {
     margin-top: 50px;

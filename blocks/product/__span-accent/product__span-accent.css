@@ -35,17 +35,11 @@
     2px 2px 0 rgba(40, 42, 48, 0.502);
 }
 
-@media screen and (min-width: 1440px) {}
-
-/* 1280 - default*/
-
 @media screen and (max-width: 1124px) {
   .product__span-accent {
     font-size: 64px;
   }
 }
-
-@media screen and (max-width: 834px) {}
 
 @media screen and (max-width: 667px) {
   .product__span-accent {
@@ -60,5 +54,3 @@
     line-height: 1.95;
   }
 }
-
-@media screen and (max-width: 320px) {}

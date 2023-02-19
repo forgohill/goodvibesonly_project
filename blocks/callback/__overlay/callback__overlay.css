@@ -31,8 +31,6 @@
   }
 }
 
-@media screen and (max-width: 768px) {}
-
 @media screen and (max-width: 430px) {
   .callback__overlay {
     right: 69px;

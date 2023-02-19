@@ -5,13 +5,7 @@
 
   margin: 207px auto 0;
   padding: 0;
-
-  /* background-color: rgba(123, 255, 0, 0.2); */
 }
-
-@media screen and (min-width: 1440px) {}
-
-/* 1280 - default*/
 
 @media screen and (max-width: 1024px) {
   .presentation {
@@ -20,14 +14,9 @@
   }
 }
 
-@media screen and (max-width: 834px) {}
-
-@media screen and (max-width: 768px) {}
-
 @media screen and (max-width: 748px) {
   .presentation {
     margin: 127px auto 0;
-
   }
 }
 

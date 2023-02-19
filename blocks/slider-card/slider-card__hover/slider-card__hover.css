@@ -10,8 +10,6 @@
   position: relative;
 
   z-index: 3;
-
-
 }
 
 .slider-card__hover::after {
@@ -38,22 +36,9 @@
   background-color: rgba(229, 229, 229, 0.8);
 }
 
-@media screen and (min-width: 1440px) {}
-
-/* 1280 - default*/
-
-@media screen and (max-width: 1024px) {}
-
-@media screen and (max-width: 834px) {}
-
-@media screen and (max-width: 768px) {}
-
 @media screen and (max-width: 430px) {
   .slider-card__hover {
     width: auto;
     height: auto;
-    /* border: 1px solid red; */
   }
 }
-
-@media screen and (max-width: 320px) {}

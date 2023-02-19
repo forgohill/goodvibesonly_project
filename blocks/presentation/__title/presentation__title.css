@@ -14,16 +14,6 @@
   z-index: 10;
 }
 
-@media screen and (min-width: 1440px) {}
-
-/* 1280 - default*/
-
-@media screen and (max-width: 1024px) {}
-
-@media screen and (max-width: 834px) {}
-
-@media screen and (max-width: 768px) {}
-
 @media screen and (max-width: 430px) {
   .presentation__title {
     font-size: 40px;
@@ -33,7 +23,6 @@
 
 @media screen and (max-width: 320px) {
   .presentation__title {
-
     margin: 25px 0 0;
   }
 }

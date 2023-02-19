@@ -4,20 +4,8 @@
   list-style-type: none;
 }
 
-@media screen and (min-width: 1440px) {}
-
-/* 1280 - default*/
-
-@media screen and (max-width: 1024px) {}
-
-@media screen and (max-width: 834px) {}
-
-@media screen and (max-width: 768px) {}
-
 @media screen and (max-width: 430px) {
   .footer__links {
     margin: 25px 0 0;
   }
 }
-
-@media screen and (max-width: 320px) {}

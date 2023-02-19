@@ -32,12 +32,8 @@
   }
 }
 
-@media screen and (max-width: 768px) {}
-
 @media screen and (max-width: 430px) {
   .callback__background {
     display: none;
   }
 }
-
-@media screen and (max-width: 320px) {}

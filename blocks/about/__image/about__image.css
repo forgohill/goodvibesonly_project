@@ -22,8 +22,6 @@
 
 .about__image::before {
   content: '';
-
-  /* display: block; */
   display: none;
 
   position: absolute;
@@ -49,7 +47,6 @@
   }
 }
 
-/* 1280 - default*/
 @media screen and (max-width: 1250px) {
   .about__image::before {
     display: block;
@@ -78,8 +75,6 @@
     max-width: 330px;
   }
 }
-
-@media screen and (max-width: 768px) {}
 
 @media screen and (max-width: 430px) {
   .about__image {

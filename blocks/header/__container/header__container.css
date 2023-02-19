@@ -1,5 +1,4 @@
 .header__container {
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -8,8 +7,6 @@
 
   margin: 0 auto;
   padding: 71px 24px 0px;
-
-  /* background-color: rgba(0, 255, 255, 0.3); */
 
   z-index: 16;
   position: relative;
@@ -76,5 +73,4 @@
     min-width: 300px;
     padding: 15px 5px 0px;
   }
-
 }

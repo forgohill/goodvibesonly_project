@@ -5,25 +5,10 @@
 
   margin: 40px auto 0;
   padding: 0;
-  /* padding: 2px 0 2px; */
-
-  background-color: rgba(0, 255, 195, 0.2);
 }
-
-@media screen and (min-width: 1440px) {}
-
-/* 1280 - default*/
-
-@media screen and (max-width: 1024px) {}
-
-@media screen and (max-width: 834px) {}
-
-@media screen and (max-width: 768px) {}
 
 @media screen and (max-width: 430px) {
   .dividing-line {
     margin: 30px auto 0;
   }
 }
-
-@media screen and (max-width: 320px) {}

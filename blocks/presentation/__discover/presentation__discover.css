@@ -22,20 +22,3 @@
 
   cursor: pointer;
 }
-
-
-@media screen and (min-width: 1440px) {}
-
-@media screen and (max-width: 1024px) {
-  /* .presentation__discover {
-    align-self: flex-start;
-  } */
-}
-
-@media screen and (max-width: 834px) {}
-
-@media screen and (max-width: 768px) {}
-
-@media screen and (max-width: 430px) {}
-
-@media screen and (max-width: 320px) {}
